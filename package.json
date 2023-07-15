@@ -1,0 +1,19 @@
+{
+	"name": "walle",
+	"version": "0.0.1",
+	"license": "MIT",
+	"private": false,
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"bin": "./dist/bin.js",
+	"scripts": {
+		"prepublishOnly": "lightrix build 'src/**/*.ts'"
+	},
+	"dependencies": {
+		"@lightrix/scripts": "1.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

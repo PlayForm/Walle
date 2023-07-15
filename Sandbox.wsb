@@ -1,0 +1,8 @@
+<Configuration>
+	<MappedFolders>
+		<MappedFolder>
+			<HostFolder>F:\Developer\app\NikolaRHristov\walle</HostFolder>
+			<SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads</SandboxFolder>
+		</MappedFolder>
+	</MappedFolders>
+</Configuration>
