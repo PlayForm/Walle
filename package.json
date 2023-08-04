@@ -8,7 +8,7 @@
 	"types": "./dist/Index.d.ts",
 	"bin": "./dist/bin.js",
 	"scripts": {
-		"prepublishOnly": "lightrix build 'src/**/*.ts'"
+		"prepublishOnly": "lightrix build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"@lightrix/scripts": "1.0.7"
