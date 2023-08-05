@@ -11,7 +11,7 @@
 		"prepublishOnly": "lightrix build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@lightrix/scripts": "1.0.7"
+		"@lightrix/script": "1.0.7"
 	},
 	"publishConfig": {
 		"access": "public"
