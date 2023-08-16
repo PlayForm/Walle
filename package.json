@@ -2,6 +2,7 @@
 	"name": "walle",
 	"version": "2.0.0",
 	"private": false,
+	"license": "MIT",
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
@@ -9,10 +10,10 @@
 	"scripts": {
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
-	"publishConfig": {
-		"access": "public"
-	},
 	"devDependencies": {
 		"typescript-esbuild": "0.1.13"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
