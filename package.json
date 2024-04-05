@@ -13,9 +13,11 @@
 	"types": "./Target/Index.d.ts",
 	"bin": "Target/Bin.js",
 	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
+		"@playform/document": "0.0.6",
 		"@playform/build": "0.0.5"
 	},
 	"publishConfig": {
