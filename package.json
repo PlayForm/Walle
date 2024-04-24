@@ -1,10 +1,13 @@
 {
-	"name": "walle",
+	"name": "@playform/walle",
 	"version": "0.0.1",
 	"private": false,
+	"keywords": [
+		"playform"
+	],
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Source/Open",
+		"name": "⛲ Source ⁄ 🚪 Open —",
 		"email": "Source/Open@Playform.Cloud",
 		"url": "HTTPS://Playform.Cloud"
 	},
