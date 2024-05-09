@@ -14,7 +14,9 @@
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
-	"bin": "Target/Bin.js",
+	"bin": {
+		"walle": "Target/Bin.js"
+	},
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
